@@ -8,7 +8,8 @@ package httptest
 import (
 	"bufio"
 	"bytes"
-	tls "github.com/wsw365904/newcryptosm/tls"
+	"github.com/wsw365904/newcryptosm/http"
+	"github.com/wsw365904/newcryptosm/tls"
 	"io"
 	"io/ioutil"
 	"strings"
