@@ -49,6 +49,12 @@ func ParsePKCS1PrivateKey(der []byte) (*rsa.PrivateKey, error) {
 		return nil, asn1.SyntaxError{Msg: "trailing data"}
 	}
 	if err != nil {
+		if _, err := asn1.Unmarshal(der, &ecPrivateKey{}); err == nil {
+			return nil, errors.New("x509: failed to parse private key (use ParseECPrivateKey instead for this key format)")
+		}
+		if _, err := asn1.Unmarshal(der, &pkcs8{}); err == nil {
+			return nil, errors.New("x509: failed to parse private key (use ParsePKCS8PrivateKey instead for this key format)")
+		}
 		return nil, err
 	}
 

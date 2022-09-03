@@ -292,7 +292,7 @@ func parsePrivateKey(der []byte) (crypto.PrivateKey, error) {
 			return nil, errors.New("GM tls: found unknown private key type in PKCS#8 wrapping")
 		}
 	}
-	if key, err := x5092.ParsePKCS8PrivateKey(der); err == nil {
+	if key, err := x5092.ParseECPrivateKey(der); err == nil {
 		return key, nil
 	}
 	return nil, errors.New("GM tls: gm failed to parse private key")
