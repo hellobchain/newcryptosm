@@ -7,7 +7,7 @@ package httptest
 import (
 	"bytes"
 	"fmt"
-	"github.com/wsw365904/newcryptosm/http"
+	"github.com/hellobchain/newcryptosm/http"
 	"io/ioutil"
 	"strconv"
 	"strings"

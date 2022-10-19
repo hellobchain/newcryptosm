@@ -1,4 +1,4 @@
-module github.com/wsw365904/newcryptosm
+module github.com/hellobchain/newcryptosm
 
 go 1.16
 

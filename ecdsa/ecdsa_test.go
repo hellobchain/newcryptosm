@@ -13,7 +13,7 @@ import (
 	"crypto/sha256"
 	"crypto/sha512"
 	"encoding/hex"
-	"github.com/wsw365904/newcryptosm/sm2"
+	"github.com/hellobchain/newcryptosm/sm2"
 	"hash"
 	"io"
 	"math/big"

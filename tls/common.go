@@ -22,7 +22,7 @@ import (
 	"crypto/sha512"
 	"errors"
 	"fmt"
-	x5092 "github.com/wsw365904/newcryptosm/x509"
+	x5092 "github.com/hellobchain/newcryptosm/x509"
 	"io"
 	"math/big"
 	"net"

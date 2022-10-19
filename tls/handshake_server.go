@@ -22,9 +22,9 @@ import (
 	"encoding/asn1"
 	"errors"
 	"fmt"
-	"github.com/wsw365904/newcryptosm"
-	"github.com/wsw365904/newcryptosm/ecdsa"
-	x5092 "github.com/wsw365904/newcryptosm/x509"
+	"github.com/hellobchain/newcryptosm"
+	"github.com/hellobchain/newcryptosm/ecdsa"
+	x5092 "github.com/hellobchain/newcryptosm/x509"
 	"io"
 )
 

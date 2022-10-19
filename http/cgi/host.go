@@ -17,7 +17,7 @@ package cgi
 import (
 	"bufio"
 	"fmt"
-	"github.com/wsw365904/newcryptosm/http"
+	"github.com/hellobchain/newcryptosm/http"
 	"io"
 	"log"
 	"net"

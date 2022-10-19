@@ -8,8 +8,8 @@ package httptrace
 
 import (
 	"context"
-	"github.com/wsw365904/newcryptosm/http/internal/nettrace"
-	"github.com/wsw365904/newcryptosm/tls"
+	"github.com/hellobchain/newcryptosm/http/internal/nettrace"
+	"github.com/hellobchain/newcryptosm/tls"
 	"net"
 	"net/textproto"
 	"reflect"

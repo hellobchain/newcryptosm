@@ -9,8 +9,8 @@ import (
 	"encoding/asn1"
 	"errors"
 	"fmt"
-	"github.com/wsw365904/newcryptosm/ecdsa"
-	"github.com/wsw365904/newcryptosm/x509/pkix"
+	"github.com/hellobchain/newcryptosm/ecdsa"
+	"github.com/hellobchain/newcryptosm/x509/pkix"
 )
 
 // pkcs8 reflects an ASN.1, PKCS#8 PrivateKey. See

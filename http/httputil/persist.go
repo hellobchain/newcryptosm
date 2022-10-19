@@ -7,7 +7,7 @@ package httputil
 import (
 	"bufio"
 	"errors"
-	"github.com/wsw365904/newcryptosm/http"
+	"github.com/hellobchain/newcryptosm/http"
 	"io"
 	"net"
 	"net/textproto"

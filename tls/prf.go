@@ -21,8 +21,8 @@ import (
 	"crypto/sha1"
 	"crypto/sha256"
 	"errors"
-	"github.com/wsw365904/newcryptosm"
-	"github.com/wsw365904/newcryptosm/sm3"
+	"github.com/hellobchain/newcryptosm"
+	"github.com/hellobchain/newcryptosm/sm3"
 	"hash"
 )
 

@@ -11,7 +11,7 @@ import (
 	"crypto/sha1"
 	"crypto/sha256"
 	"crypto/sha512"
-	"github.com/wsw365904/newcryptosm/sm3"
+	"github.com/hellobchain/newcryptosm/sm3"
 	"hash"
 	"strconv"
 )

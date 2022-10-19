@@ -16,7 +16,7 @@ import (
 	"encoding/hex"
 	"encoding/pem"
 	"errors"
-	"github.com/wsw365904/newcryptosm/sm4"
+	"github.com/hellobchain/newcryptosm/sm4"
 	"io"
 	"strings"
 )

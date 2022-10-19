@@ -7,7 +7,7 @@
 package httputil
 
 import (
-	"github.com/wsw365904/newcryptosm/http/internal"
+	"github.com/hellobchain/newcryptosm/http/internal"
 	"io"
 )
 

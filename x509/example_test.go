@@ -9,8 +9,8 @@ import (
 	"crypto/rsa"
 	"encoding/pem"
 	"fmt"
-	"github.com/wsw365904/newcryptosm/ecdsa"
-	x5092 "github.com/wsw365904/newcryptosm/x509"
+	"github.com/hellobchain/newcryptosm/ecdsa"
+	x5092 "github.com/hellobchain/newcryptosm/x509"
 )
 
 func ExampleCertificate_Verify() {

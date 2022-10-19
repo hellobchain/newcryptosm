@@ -1,8 +1,8 @@
 package ecdsa_test
 
 import (
-	"github.com/wsw365904/newcryptosm/ecdsa"
-	"github.com/wsw365904/newcryptosm/sm2"
+	"github.com/hellobchain/newcryptosm/ecdsa"
+	"github.com/hellobchain/newcryptosm/sm2"
 	"math/big"
 	"testing"
 )

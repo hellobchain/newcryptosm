@@ -3,8 +3,8 @@ package ecdsa
 import (
 	"bytes"
 	"encoding/binary"
-	"github.com/wsw365904/newcryptosm/sm2"
-	"github.com/wsw365904/newcryptosm/sm3"
+	"github.com/hellobchain/newcryptosm/sm2"
+	"github.com/hellobchain/newcryptosm/sm3"
 	"math/big"
 )
 

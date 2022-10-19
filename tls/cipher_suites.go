@@ -24,9 +24,9 @@ import (
 	"crypto/sha1"
 	"crypto/sha256"
 	"fmt"
-	"github.com/wsw365904/newcryptosm/sm3"
-	"github.com/wsw365904/newcryptosm/sm4"
-	"github.com/wsw365904/newcryptosm/x509"
+	"github.com/hellobchain/newcryptosm/sm3"
+	"github.com/hellobchain/newcryptosm/sm4"
+	"github.com/hellobchain/newcryptosm/x509"
 	"hash"
 
 	"golang.org/x/crypto/chacha20poly1305"
